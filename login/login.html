@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="main-container">
+<img src="img/image 2.svg" alt="logo1" style="width:450px ; height:100px ">
+<img src="img/Group 526.svg" alt="logo2" style="width:450px ; height:250px ">
+<h1><b>Login to Learn Easy</b></h1>
+<div class="container">
+    <!-- <img src="google-icon.png" alt="Google Icon" class="google-icon"> -->
+    <button id="redirectButton">Login with Google</button>
+</div>
+
+<script>
+
+    document.getElementById('redirectButton').onclick = function() {
+        window.location.href = 
+        'https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/';
+    }
+</script>
+<p><b>Having issue?</b> <a href="#">Receive Login Link</a></p>
+</div>
+</body>
+</html>
